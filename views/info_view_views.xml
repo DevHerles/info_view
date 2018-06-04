@@ -1,0 +1,12 @@
+<odoo>
+  <data>
+    <!-- explicit info view definition -->
+    <record model="ir.ui.view" id="info_view.view">
+      <field name="name">info_view view</field>
+      <field name="model">info_view.view</field>
+      <field name="arch" type="xml">
+        <info/>
+      </field>
+    </record>
+  </data>
+</odoo>
